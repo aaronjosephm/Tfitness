@@ -53,6 +53,10 @@ p {
     top: 40%;
     width: 400px;
   }
+
+  .img {
+    width: 200px;
+  }
 }
 
 .icon-block {
