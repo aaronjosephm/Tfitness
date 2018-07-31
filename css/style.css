@@ -51,7 +51,13 @@ p {
   .parallax-container .section {
     position: absolute;
     top: 40%;
-    width: 50px;
+    width: 300px;
+  }
+
+  .parallax-container .img {
+    position: absolute;
+    top: 40%;
+    width: 200px;
   }
 
   .img {
