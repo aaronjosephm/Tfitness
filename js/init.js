@@ -10,10 +10,10 @@
     fullWidth: true,
     indicators: true
   });
-    setTimeout(autoplay, 4500);
+    setTimeout(autoplay, 9000);
     function autoplay() {
     $('.carousel').carousel('next');
-    setTimeout(autoplay, 4500);
+    setTimeout(autoplay, 9000);
 }
 
 
