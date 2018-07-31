@@ -43,6 +43,15 @@ p {
   #index-banner .section {
     top: 0;
   }
+
+  #index-image .section {
+    width: 400px;
+  }
+
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
 }
 
 .icon-block {
