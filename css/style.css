@@ -57,7 +57,7 @@ p {
   }
 
   .parallax-container .section {
-    position: absolute;
+
     top: 40%;
     width: 300px;
     display: flex;
@@ -67,7 +67,7 @@ p {
   }
 
   .parallax-container .img {
-    position: absolute;
+
     top: 40%;
     width: 200px;
     display: flex;
