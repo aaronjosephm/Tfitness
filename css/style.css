@@ -48,6 +48,8 @@ p {
   }
 
   #index-image .section {
+    height: auto;
+    width: auto;
     width: 400px;
     display: flex;
     align-items: center;
@@ -74,6 +76,8 @@ p {
   }
 
   .img {
+    height: auto;
+    width: auto;
     width: 200px;
     display: flex;
     align-items: center;
