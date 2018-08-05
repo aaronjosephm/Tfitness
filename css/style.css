@@ -23,7 +23,9 @@ p {
   min-height: 500px;
   line-height: 0;
   height: auto;
+  width: auto;
   color: rgba(255,255,255,.9);
+
 }
   .parallax-container .section {
     width: 100%;
@@ -31,6 +33,11 @@ p {
 
   .img {
     width: 500px;
+  }
+
+  .carousel-item img {
+
+    width: 100vh;
   }
 
   .parallax {
@@ -44,9 +51,9 @@ p {
     position: absolute;
     top: 40%;
   }*/
-  #index-banner .section {
+ /* #index-banner .section {
     top: 10%;
-  }
+  }*/
 }
 
 @media only screen and (max-width : 600px) {
@@ -57,13 +64,55 @@ p {
     justify-content: center;
   }
 
+  .parallax-container {
+    min-height: 50px;
+    line-height: 0;
+    height: 50vh;
+    width: 60vh;
+    color: rgba(255,255,255,.9);
+
+  }
+
+/*  .carousel {
+    height: auto;
+    width: auto;
+    background-size: contain;
+    justify-content: center;
+    position: relative;
+  }
+
+  .carousel-slider {
+    height: auto;
+    width: auto;
+    justify-content: center;
+
+  }
+
+  .carousel-item img {
+
+    height: auto;
+    width: auto;
+    margin-right: 30vh;
+    background-size: contain;
+  }*/
+
+  h1 {
+    font-size: 30px
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+
+
   #index-image .section {
     height: auto;
     width: auto;
-    width: 400px;
+
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0.5;
   }
 
 /*  .parallax-container .section {
@@ -85,15 +134,16 @@ p {
     justify-content: center;
   }*/
 
-  .img {
+  /*.img {
     height: auto;
     width: auto;
-    width: 200px;
+
     display: flex;
     align-items: center;
     justify-content: center;
     background-size: cover;
-  }
+    opacity: 0.5;
+  }*/
 }
 
 .icon-block {
