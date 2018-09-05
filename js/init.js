@@ -34,12 +34,3 @@ console.log("wtf");
   }); // end of document ready
 })(jQuery);
 
-
-taabs.forEach(function(tab) {
-  tab.addEventListener("click", (event) => {
-    taabs.forEach(function(tab) {
-      tab.firstElementChild.classList.remove("tab-highlight");
-    });
-    event.element.classList.add("tab-highlight");
-  });
-});
