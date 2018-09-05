@@ -1,0 +1,10 @@
+.tab-highlight {
+  opacity: 0.8;
+  color: red;
+  transition: all 0.9s ease 0s;
+  background-color: white;
+}
+
+.nav-wrapper {
+  background-color: black !important;
+}

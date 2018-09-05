@@ -6,6 +6,10 @@
  * Made By MaterializeCSS.com
  */
 
+@import url("banner.css");
+@import url("navbar.css");
+
+
 nav ul a,
 nav .brand-logo {
   color: #FFFFFF;
@@ -31,13 +35,14 @@ p {
     width: 100%;
   }
 
-  .img {
-    width: 500px;
+  .carousel-item img {
+    width: 50vw !important;
+    height: auto !important;
   }
 
-  .carousel-item img {
-
-    width: 100vh;
+  .carousel-item {
+    width: 50vw !important;
+    height: 90vh !important;
   }
 
   .parallax {
@@ -73,28 +78,19 @@ p {
 
   }
 
-/*  .carousel {
-    height: auto;
-    width: auto;
-    background-size: contain;
-    justify-content: center;
-    position: relative;
-  }
-
-  .carousel-slider {
-    height: auto;
-    width: auto;
-    justify-content: center;
-
+  .carousel {
+    height: 30vh !important;
   }
 
   .carousel-item img {
+    width: 100vw !important;
 
-    height: auto;
-    width: auto;
-    margin-right: 30vh;
-    background-size: contain;
-  }*/
+  }
+
+  .carousel-item {
+    width: auto !important;
+    height: 30vh !important;
+  }
 
   h1 {
     font-size: 30px
